@@ -1,0 +1,217 @@
+@import url(reset.css);
+
+
+/* !GLOBSL STYLES */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #F5F5F5;
+    color: #161616;
+    font-size: 18px;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+/* !HEADER */
+.header{
+    background: #81A36B;
+    padding: 20px 0;
+}
+.header-logo{
+    margin-right: 130px ;
+}
+.header-flex{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    width: 823px;
+    /* align-items: center */
+}
+
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    color: #161616;
+    text-decoration: none;
+    display: inline-block;
+}
+/* !MAIN */
+h1 h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+}
+.main_color{
+    background: #D8D8D6;
+}
+
+/* title section */
+.section-flex{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-flex > div{
+    width: 540px;
+}
+
+/* ? ВОПРОС  - под рисунком полоска, как убрать? то что написала ниже не работает */
+.title_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h1_title_section h1{
+    font-size: 62px;
+    margin-bottom: 60px;
+}
+.h1_title_section p{
+    line-height: 164%;
+}
+.button_flex{
+    display: flex;
+}
+
+/* ? ВОПРОС  - нужно ли было переназначать шрифт кнопке, не подтягивался сам. */
+
+.title_button{
+    width: 190px;
+    height: 60px;
+    margin: 40px 65px 0 0;
+    /* padding: 20px 30px; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #81A36B;
+    color: #161616;
+    font-size: 18px;
+    border: none;
+}
+.title_button_2 a{
+    width: 190px;
+    height: 60px;
+    margin: 40px 0 0 0;
+    padding: 20px 0;
+    text-align: center;
+    background: #D8D8D6;
+    border: 1px solid #81A36B;
+    color: #161616;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* about us*/
+.about_us{
+    padding: 120px 0;
+    text-align: center;
+}
+.h2_about_us{
+    font-size: 32px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.h2_container{
+    width: 540px;
+    line-height: 164%;
+    padding: 0;
+}
+
+/* advantages */
+
+.advantages{
+    background: #81A36B;
+    padding: 80px 0;
+}
+.flex-box-advantages{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.flex-box-advantages img{
+    margin-bottom: 20px;
+}
+
+/* how we work */
+.how_we_work{
+    padding: 120px 0;
+}
+
+.h2_work_section h2{
+    font-size: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+/* our work */
+.our_work_section{
+    padding-bottom: 120px;
+}
+.our_work_section h2{
+    font-size: 32px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.work_items_flex{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.work_item{
+    width: 350px;
+    height: 510px;
+    padding: 15px;
+    background: #81A36B;
+    text-align: center;
+}
+.work_item_img{
+    width: 320px;
+    height: 402px;
+    margin-bottom: 23px;
+}
+.work_item_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* !FOOTER */
+.footer{
+    background: #81A36B;
+    padding: 60px 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.flex-container h3{
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.footer-contact a{
+    color: #161616;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer-contact ul > li+li{
+    margin-top: 20px;
+}
+.footer-year{
+    text-align: center ;
+}
