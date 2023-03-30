@@ -181,7 +181,7 @@ h1, h2{
     padding: 15px 15px 40px;
     background: #81A36B;
     text-align: center;
-    flex: 1 1 33%;
+    /* flex: 1 1 33%; */
 }
 
 .work_item_img{
@@ -259,6 +259,7 @@ h1, h2{
     }
     .work_items_flex{
         display: flex;
+        justify-content: center;
         flex-flow: wrap;
         gap: 10px;
     }
@@ -268,9 +269,8 @@ h1, h2{
     }
     .work_item_img{
         margin: 0 auto 23px;
-        width: 150px;
-        height: 200px;
-        
+        width: 250px;
+        height: 300px;
     }
 
 }
